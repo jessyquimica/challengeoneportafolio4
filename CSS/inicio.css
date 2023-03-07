@@ -47,6 +47,7 @@
         border-radius: 100%;
 
     }
+    
 
     .inicio .contenido-banner h1 {
 
@@ -86,4 +87,12 @@
 
     .inicio .contenido-banner .redes a:hover {
         background-color: #F18D28;
+    }
+
+
+
+    @media (max-width:768px) {
+        .inicio{
+           height: 50vh;
+        }
     }
