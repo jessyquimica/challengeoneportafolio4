@@ -1,0 +1,89 @@
+    .inicio {
+
+        background: linear-gradient(to top, rgba(30, 35, 38, .8), rgba(30, 35, 38, 1)),
+            url(../asset/pexels-olia-danilevich-5088008.jpg);
+        background-size: cover;
+        height: 120vh;
+        color: #fff;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .n-nombre {
+
+        font-size: 40px;
+
+        text-transform: uppercase;
+        background: linear-gradient(90deg, #eca50b, #fff, #000);
+        letter-spacing: 4px;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-repeat: no-repeat;
+        background-size: 80%;
+        animation: shine 5s linear infinite;
+        position: relative;
+    }
+
+    @keyframes shine {
+        0% {
+            background-position-x: -500%;
+        }
+
+        100% {
+            background-position-x: 500%;
+        }
+    }
+
+    
+
+    
+    .inicio .contenido-banner .imagen {
+        margin-top: 40px;
+        display: block;
+        width: 40%;
+        margin: auto;
+        border-radius: 100%;
+
+    }
+
+    .inicio .contenido-banner h1 {
+
+        margin-top: 0px;
+        font-size: 42px;
+        font-family: 'sarala';
+        text-align: center;
+
+    }
+
+    .inicio .contenido-banner h2 {
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .redes {
+        text-align: center;
+        margin-bottom: auto;
+    }
+
+    .inicio .contenido-banner .redes a {
+        color: #fff;
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        border: 1px solid #fff;
+        border-radius: 100%;
+        width: 40px;
+        height: 42px;
+        line-height: 42px;
+        margin: 40px 5px;
+        font-size: 20px;
+        transition: .3s;
+    }
+
+    .inicio .contenido-banner .redes a:hover {
+        background-color: #F18D28;
+    }

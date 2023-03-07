@@ -1,0 +1,93 @@
+.portafolio{
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    padding: 2px;
+    
+}
+
+.titulo{
+    font-family: "sarala";
+    color:#F18D28;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 44px;
+    line-height: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: rgba(240, 156, 30, 0.526);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  flex-direction: column;
+}
+
+.hover-galeria img{
+    width: 30px;
+}
+
+.hover-galeria p{
+    color: #fff;
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+
+
+@media (max-width:768px) {
+
+    .titulo{
+        text-align: center;
+        font-size: 32px;
+       padding-top: 10px;
+
+        
+       
+    }
+    .portafolio .galeria-port {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        
+        
+        
+        
+    }
+
+    
+   
+
+   
+
+}
+

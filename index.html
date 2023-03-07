@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portafolio-jessy ocaña</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/inicio.css">
+    <link rel="stylesheet" href="./CSS/sobremi.css">
+    <link rel="stylesheet" href="./CSS/skills.css">
+    <link rel="stylesheet" href="./CSS/hobbis.css">
+    <link rel="stylesheet" href="./CSS/formacion.css">
+    <link rel="stylesheet" href="./CSS/experiencia.css">
+    <link rel="stylesheet" href="./CSS/contacto.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+
+
+
+
+
+</head>
+
+<body>
+
+    <section class="contenedor-header">
+        <header>
+            <div class="logo">
+                <span class="nombre" style="--i:1">J</span>
+                <span class="nombre" style="--i:2">O</span>
+                
+
+            </div>
+
+            <nav id="nav" class="nav">
+                <ul class="listado-nav">
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobre-mi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#hobbies" onclick="seleccionar()">HOBBIS</a></li>
+                    <li><a href="#formacionAcademica" onclick="seleccionar()">FORMACION ACADEMICA</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </section>
+
+
+    <!--section de inicio-->
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img class="imagen" src="./asset/foto.png" alt="fotografia">
+
+            </div>
+
+            <h1 class="n-nombre">jessy ocaña</h1>
+
+            <h2 class="soy-nombre">Ingeniera Quimica, estudiante Front-tend </h2>
+
+
+
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- SECCION S O B R E M I -->
+    <section class="about" id="sobre-mi">
+        <div class="about-container">
+            <h2 class="sobremi">Sobre mi</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper
+                dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut
+                semper sagittis ligula et lacinia. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper
+                dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut
+                semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.
+            </p>
+            <a class="button" href="#">Descargar CV</a>
+        </div>
+    </section>
+
+
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <section  id="skills" class="portafolio">
+        <div class="contenedor">
+            <h2 class="titulo">skills</h2>
+            <div class="galeria-port">
+                <div class="imagen-port">
+                    <img src="./asset/PROGRAMA1.png" alt="HTML">
+                    <div class="hover-galeria">
+
+                        <p>70%</p>
+
+
+                    </div>
+
+                </div>
+
+                <div class="imagen-port">
+                    <img src="./asset/PROGRAMA 2.png" alt="CSS">
+                    <div class="hover-galeria">
+
+                        <p>70%</p>
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="imagen-port">
+                    <img src="./asset/PROGRAMA4.png" alt="JS">
+                    <div class="hover-galeria">
+
+                        <p>70%</p>
+
+
+                    </div>
+
+                </div>
+                <div class="imagen-port">
+                    <img src="./asset/PROGRAMA5.png" alt="GIT">
+                    <div class="hover-galeria">
+
+                        <p>80%</p>
+
+
+                    </div>
+
+                </div>
+
+                <div class="imagen-port">
+                    <img src="./asset/PROGRAMA6.png" alt="GITHUB">
+                    <div class="hover-galeria">
+                        < <p>80%</p>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+            <!-- SECCION H O B B I S -->
+            <section  id="hobbies"class="contenidoprincipal">
+                <h2 class="subtitulo">Hobbies</h2>
+                <div class="container-hobbies">
+                    
+
+                    <nav>
+                        <ul class="contenidoPrincipal-hobbies">
+                            <li class="contenidoPrincipal-hobbies-link"><a class="musica" href="#">oir musica</a></li>
+                            <li class="contenidoPrincipal-hobbies-link"><a class="television" href="#">ver series</a>
+                            </li>
+                            <li class="contenidoPrincipal-hobbies-link"><a class="ejercicio" href="#">hacer
+                                    ejercicio</a></li>
+                            <li class="contenidoPrincipal-hobbies-link"><a class="leer" href="#">leer</a></li>
+
+
+
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+
+
+        </div>
+
+
+
+
+
+
+    </section>
+
+
+    <!-- SECCION F O R M A C I O N A C A D E M I C A -->
+
+
+    <section id="formacionAcademica" class="formacion-academica">
+        <h2 class="titulo-formacion">Formacion Academica</h2>
+        <div class="container">
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="./asset/Logo Florista Circular Blanco Negro.svg">
+                        <h3>Ingeniero Qumico</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>2014-2018 -Instituto Tecnologico Tuxtla Gutierrez</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="./asset/platzi.svg">
+                        <h3>Platzi</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>2022- Estudiante de front-Developer</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="./asset/one.svg">
+                        <h3>Alura</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>2023 en curso- estudiante de One Oracle Next Education -Front End</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- SECCION E X P E R I E N C I A -->
+
+    <h2 class="titulo-seccion">Portafolio</h2>
+
+    <section id="portfolio">
+
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./asset/yarda.png" alt="">
+                <div class="info">
+                    <h4>Pagina web -responsive- tienda de articulos</h4>
+                    <p>Diseño Web movil-responsive</p>
+
+
+                    <span class="experience-repo"><a
+                            href="https://github.com/jessyquimica/pagina-web-responsive-tienda-de-articulos"><button
+                                class="button-repositorio">Repositório</button></a></span>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./asset/cocina.png" alt="">
+                <div class="info">
+                    <h4>Pagina web -responsive- proyecto de una tienda de compras </h4>
+                    <p>Diseño Web-movil</p>
+
+
+                    <span class="experience-repo"><a
+                            href="https://github.com/jessyquimica/proyecto-recetario-de-cocina"><button
+                                class="button-repositorio">Repositório</button></a></span>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./asset/encripto.png" alt="encriptador">
+                <div class="info">
+                    <h4>Pagina web -responsive- recetario de comida</h4>
+                    <p>Diseño Web</p>
+
+
+                    <span class="experience-repo"><a
+                            href="https://github.com/jessyquimica/Encriptador"><button
+                                class="button-repositorio">Repositório</button></a></span>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./asset/mini-alura.png" alt="">
+                <div class="info">
+                    <h4>Pagina web -responsive- mini alura</h4>
+                    <p>Diseño Web</p>
+
+
+                    <span class="experience-repo"><a
+                            href="https://github.com/jessyquimica/pagina-de-cursos-"><button
+                                class="button-repositorio">Repositório</button></a></span>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+
+    <!-- SECCION C O N T A C T O -->
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2 class="contacto-h2">contacto</h2>
+            <div class="fila">
+
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="10" rows="5" placeholder="Mensaje"></textarea>
+
+                    <button class="button button-contacto">
+                        <span class="button-content">Enviar</span>
+                    </button>
+
+                </div>
+
+                <div class="col col-img">
+                    <img src="./asset/contacto.png" alt="">
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- F O O T E R -->
+        <section class="footer">
+
+            <p>Desarrollado por Jessy Ocaña 2023</p>
+
+
+        </section>
+
+
+    </section>
+
+
+
+
+
+   <script src="./script.js" ></script>
+
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
+
+html, body{
+    max-width: 100%;
+     /* overflow-x: hidden;  */
+   
+}
+
+body{
+    font-family: "sarala";
+}
+
+.nombre{
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    position: relative;
+  display: inline-block;
+  
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+
+/*menu*/
+.contenedor-header{
+    background-color: #121114;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    z-index: 99;
+
+}
+
+.contenedor-header header{
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.contenedor-header header .logo a{
+    font-family: "sarala";
+    font-size: 25px;
+    color:#F18D28;
+    text-decoration: none;
+}
+
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+    font-family: "sarala";
+    font-size: 12px;
+}
+
+.contenedor-header header nav ul li a:hover{
+    color: #F18D28;
+   text-decoration: underline;
+}
+.nav-responsive{
+    background-color: #F18D28;
+    color:#fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+   text-decoration: overline;
+}
+
+.nav-responsive{
+    background-color: #F18D28;
+    color: azure;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    text-decoration: overline;
+}
+
+@media screen and (max-width:768px){
+    .nav{
+        display: none;
+        
+    }
+
+    .listado-nav {
+        display: flex;
+        flex-wrap: wrap;
+  
+    }
+
+    .listado-nav li{
+        width: 90%;
+        padding: 10px 0 ;
+
+    }
+
+
+    .nav-responsive{
+        display: block;
+    }
+    .nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252A2E;
+        width: 90%;
+    }
+    .nav.responsive ul{
+        display: block !important;
+    }
+    .nav.responsive ul li{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+
+    .contenedor-header{
+        flex-wrap: wrap;
+    }
+
+    .logo{
+        visibility: hidden;
+    }
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

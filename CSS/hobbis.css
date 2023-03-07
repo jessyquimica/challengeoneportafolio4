@@ -1,0 +1,120 @@
+.contenidoPrincipal {
+	margin-top: 20px;
+	margin-bottom: 20px;
+   
+    
+   
+    
+}
+
+.subtitulo {
+    color:#f3f1ee;
+	font-size: 44px;
+    margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+    background-color: #F18D28;
+}
+
+.contenidoPrincipal-hobbies-link {
+	height: 100px;
+	background-color: #0f0f0f;
+	text-align: center;
+	margin: 1%;
+	transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;
+	position: relative;
+}
+
+.contenidoPrincipal-hobbies-link a {
+	text-decoration: none;
+	color: #fafafa;
+	
+	display: block;
+	width: 90%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.contenidoPrincipal-hobbies-link:hover {
+	box-shadow: 3px 3px 3px  #F18D28;
+   
+}
+
+.contenidoPrincipal-hobbies-link a:before {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 10px auto;
+}
+
+.contenidoPrincipal-hobbies-link .musica:before {
+	background: url(../asset/audio.svg) no-repeat;	
+}
+.contenidoPrincipal-hobbies-link .television:before {
+	background: url(../asset/tv.svg) no-repeat;	
+}
+
+.contenidoPrincipal-hobbies-link .ejercicio:before {
+	background: url(../asset/pesas.svg) no-repeat;	
+}
+
+.contenidoPrincipal-hobbies-link .leer:before {
+	background: url(../asset/pesas.svg) no-repeat;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenidoPrincipal-hobbies {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.contenidoPrincipal-hobbies-link {
+    display: flex;
+    width: 23%;
+
+}
+
+@media (max-width:768px) {
+    .contenidoPrincipal-hobbies-link {
+        flex-direction: column;
+        width: 50%;
+        text-align: center;
+        margin-left: 30px;
+       
+       
+    }
+
+    .subtitulo{
+        
+        
+		font-size: 32px;
+
+    }
+    
+	.container-hobbies{
+		padding-left: 50px;
+		padding-bottom: 15px;
+	}
+
+
+   
+
+    
+
+}

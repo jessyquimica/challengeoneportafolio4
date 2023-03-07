@@ -1,0 +1,58 @@
+/* seccion S O B R E  M I */
+
+
+
+section.about {
+    background-color: #e4e3e7;
+    padding: 50px;
+    text-align: center;
+}
+
+.sobremi{
+    font-family: "sarala";
+    color:#F18D28;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 44px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+section.about div.about-container p {
+    font-weight: 400;
+    font-family: "sarala";
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: auto;
+    text-align: justify;
+}
+
+/*estilos de button*/
+
+.button {
+    display: inline-block;
+    color: black;
+    text-decoration: none;   
+    border-radius: 30px;
+    border: 1px solid #F18D28;
+    padding: 10px 20px;
+    margin-top: 30px;
+    transition: .5s;
+    text-align: center;
+    
+}
+
+.button:hover {
+    background-color:#F18D28;;
+    color: #fff;
+    
+}
+
+
+@media (max-width:768px) {
+    .sobremi{
+        font-size: 32px;
+    }
+}
